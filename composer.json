@@ -1,0 +1,30 @@
+{
+  "name": "old-town/crc",
+  "description": "Composer Require Checker",
+  "type": "library",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "Composer",
+    "Require",
+    "Checker"
+  ],
+  "minimum-stability": "dev",
+  "homepage": "https://github.com/old-town/crc",
+  "support": {
+    "email": "and-rey2@yandex.ru"
+  },
+  "require": {
+    "php": ">=5.5"
+  },
+  "require-dev": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "OldTown\\Crc\\": "src/"
+    },
+    "classmap": [
+      "./Module.php"
+    ]
+  }
+}
